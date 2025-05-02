@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dritan Playschool</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #fcbf49;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    .feature-box {
+      flex: 1 1 220px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .contact {
+      background: #eee;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact input, .contact textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    .contact button {
+      background: #fcbf49;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Dritan Playschool</h1>
+    <p>Where learning begins with joy and play</p>
+    <a href="#contact" class="btn">Book a Visit</a>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Dritan Playschool is a nurturing early education center for children aged 2–5 years. We provide a playful and safe learning environment that encourages growth in communication, motor skills, creativity, and emotional development.</p>
+  </section>
+
+  <section>
+    <h2>What We Offer</h2>
+    <div class="features">
+      <div class="feature-box">Play-Based Curriculum</div>
+      <div class="feature-box">Caring, Experienced Teachers</div>
+      <div class="feature-box">Outdoor Play Area</div>
+      <div class="feature-box">Hygienic, Safe Campus</div>
+      <div class="feature-box">Daily Parent Updates</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Classroom" alt="Classroom">
+      <img src="https://via.placeholder.com/300x200?text=Play+Area" alt="Play Area">
+      <img src="https://via.placeholder.com/300x200?text=Activities" alt="Activities">
+      <img src="https://via.placeholder.com/300x200?text=Teachers+with+Kids" alt="Teachers">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="tel" name="phone" placeholder="Your Phone Number" required />
+        <input type="text" name="childage" placeholder="Child's Age" />
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p><strong>Address:</strong> Your School Address Here</p>
+      <p><strong>Phone:</strong> 123-456-7890</p>
+      <p><strong>Email:</strong> your-email@example.com</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Dritan Playschool. All rights reserved.
+  </footer>
+
+</body>
+</html>
